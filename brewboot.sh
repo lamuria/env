@@ -24,10 +24,15 @@ brew install the_silver_searcher
 brew install reattach-to-user-namespace
 brew install cloc
 brew install terminal-notifier
-brew install docker
-brew install boot2docker
-brew install docker
 brew install forego
+brew install leiningen
+brew install git
+
+# docker
+brew install docker
+brew install docker-machine
+brew install docker-swarm
+brew install docker-compose
 
 brew tap homebrew/dupes
 brew install apple-gcc42
@@ -42,8 +47,17 @@ brew cask install skype
 brew cask install sequel-pro
 brew cask install iterm2
 brew cask install limechat
+brew cask install java
+brew cask install spotify
+brew cask install telegram
 
 brew cask install atom
 apm install vim-mode
 
  npm install azure-cli --global
+
+brew tap d12frosted/emacs-plus
+brew install emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
+brew linkapps
+
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
