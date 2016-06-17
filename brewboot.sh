@@ -2,10 +2,16 @@
 # LDFLAGS:  -L/usr/local/opt/openssl/lib
 # CPPFLAGS: -I/usr/local/opt/openssl/include
 
+echo "Dependencies"
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install caskroom/cask/brew-cask
+
 brew install tmux
 brew install rbenv
 brew install ruby-build
 brew install mysql
+brew services start mysql
 brew install mongodb
 brew install wget
 brew install ack
@@ -27,6 +33,9 @@ brew install terminal-notifier
 brew install forego
 brew install leiningen
 brew install git
+brew cask install vagrant
+brew cask install virtualbox
+brew cask install stremio
 
 # docker
 brew install docker
@@ -61,3 +70,5 @@ brew install emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagema
 brew linkapps
 
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
+brew install coreutils
