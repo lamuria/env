@@ -8,6 +8,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install caskroom/cask/brew-cask
 
 brew install tmux
+brew install tmate
 brew install rbenv
 brew install ruby-build
 brew install mysql

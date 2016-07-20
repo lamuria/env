@@ -3,6 +3,7 @@
   email = marcoslamuria@gmail.com
 [diff]
   tool = vimdiff
+  compactionHeuristic = true
 [difftool]
   prompt = false
 [alias]
