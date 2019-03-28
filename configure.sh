@@ -1,17 +1,14 @@
 #
 # Copy env files
 #
-rm -rf ~/.vim
-cp -R vim ~/.vim
-cp vim/.vimrc ~
-cp vim/.gvimrc ~
+
+sh vim/configure.sh
+
 cp .gitconfig ~
 cp gitutils/git-completion.bash ~/.git-completion.bash
 cp .profile ~
-cp .rdebugrc ~/.rdebugrc
 source ~/.profile
 cp .tmux.conf ~
-cp .rspec ~/.rspec
 
 #
 # Prepare bin

@@ -1,0 +1,34 @@
+# compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# logs and db's
+*.log
+
+# osx generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100   # external disks
+.Trashes          # "       "
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# tmp files
+*.swp           # from Vi
+*.lock          # lock files - signal to applications that a resource should not be used until the lock is released
